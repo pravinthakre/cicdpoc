@@ -1,1 +1,1 @@
-Initial repo to clone in CICD workshop
+Initial repo to clone for CICD POC

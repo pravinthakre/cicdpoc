@@ -1,0 +1,43 @@
+#Base URL
+export OIC_BASE_URL=<OIC_HOST_NAME>:443
+
+
+#-------------TARGET-------------
+ 
+#New Integrations To Add to Target ENV
+export CREATE_INTEGRATIONS=()
+ 
+#Update Integrations In Target Env
+export UPDATE_INTEGRATIONS=()
+#example: (INTEGRATION_1_NAME IINTEGRATION_1_VERSION INTEGRATION_2_NAME INTEGRATION_2_VERSION)
+#example: (INTEGRATION_1_NAME 01.00.0010 INTEGRATION_2_NAME 01.02.0000)
+
+ 
+#Update Pacakages In Target Env
+export UPDATE_PACKAGES=""
+ 
+#Connection To Add To Target Env
+export UPDATE_CONNECTIONS=""
+ 
+#Process Project Imports From Repo
+export POST_SPACEID=""
+#export POST_SNAPSHOTID=""
+export POST_PROJECT_NAME="" #what you want your process project file to be called
+ 
+ 
+#-------------SOURCE-------------
+ 
+#Integration Exports From Source Env
+export GET_INTEGRATIONS=()
+ 
+#Connection Exports From Source Env
+export GET_CONNECTIONS=""
+ 
+#Package Exports From Source Env
+export GET_PACKAGES=""
+
+#Process Project Exports From Source Env
+export GET_SPACEID=""
+export GET_PROJECTID="" #if space seperated use %20 as a space
+#export GET_SNAPSHOTID=""
+export PROJECT_NAME="" #what you want your process project file to be called
